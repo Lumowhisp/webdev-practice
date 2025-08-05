@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Full Course</title>
+    <link rel="stylesheet" href="Project.css" />
+
+    <link rel="icon" href="image.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&famisly=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1 class="site-title">💻 Aditya's JS Arena</h1>
+      <p class="site-subtitle">Code. Break. Fix. Repeat. 🛠️</p>
+    </header>
+    <h2 class="subheading">Javascript Full Course</h2>
+    <div class="ex4">
+      <h2 class="exheading">Excercise 4</h2>
+      <section>
+        <p class="taskheading">Task 4a</p>
+        <button class="task4a">Click</button>
+      </section>
+      <section>
+        <p class="taskheading">Task 4b</p>
+        <button class="task4a">Aditya</button>
+        <button>Pizza</button>
+      </section>
+      <section>
+        <p class="taskheading">Task 4c</p>
+        <p class="task4c">Hello World!</p>
+      </section>
+      <section>
+        <p class="taskheading">Task 4d</p>
+        <p class="task4c">
+          Hello,World! <br />
+          Today I went to the grocery store to buy some eggs and vegetables.
+        </p>
+      </section>
+      <section>
+        <p class="taskheading">Task 4e</p>
+        <button class="task4e_addcart">Add to Cart</button>
+        <button class="task4e_buynow">Buy Now</button>
+      </section>
+      <section>
+        <p class="taskheading">Task 4f</p>
+        <p class="task4f_inline">Adults Plain Cotton T-shirt</p>
+        <p class="task4f_inline">Price: $7.99</p>
+        <button class="task4e_addcart" onclick="alert('Added to Cart')">
+          Add to Cart
+        </button>
+        <button class="task4e_buynow" onclick="alert('Order Placed')">
+          Buy Now
+        </button>
+      </section>
+    </div>
+    <div>
+      <section>
+        <h2 class="exheading">Carting Project</h2>
+        <p class="taskheading">Cart Quantity:</p>
+        <button
+          class="task4a"
+          onclick="console.log(`Cart Quantity:${cartquantity}`)"
+        >
+          Show Quantity
+        </button>
+        <button
+          onclick="cartquantity=cartquantity+1
+        console.log(`Cart Quantity:${cartquantity}`)"
+        >
+          Add to Cart
+        </button>
+        <button
+          onclick="cartquantity=cartquantity+2
+        console.log(`Cart Quantity:${cartquantity}`)"
+        >
+          +2
+        </button>
+        <button
+          onclick="cartquantity=cartquantity+3
+        console.log(`Cart Quantity:${cartquantity}`)"
+        >
+          +3
+        </button>
+        <button
+          onclick="cartquantity=0
+        console.log(`Cart Quantity:${cartquantity}`)"
+        >
+          Reset Cart
+        </button>
+        <script>
+          let cartquantity = 0;
+        </script>
+      </section>
+    </div>
+    <div>
+      <h2 class="subheading">Javascript Assignments</h2>
+      <h3 class="exheading">Excercise 6</h3>
+      <p class="taskheading">Task 6a</p>
+      <h3 class="exheading">Greeting</h3>
+
+      <button class="greetButton" onclick="greeting()">Click</button>
+    </div>
+    <div>
+      <p class="taskheading">Task 6b</p>
+      <h3 class="exheading">Ammusement Park</h3>
+
+      <button class="greetButton" onclick="ammusementPark()">Discount</button>
+    </div>
+    <div>
+      <p class="taskheading">Task 6c</p>
+      <h3 class="exheading">Coin Flip</h3>
+      <p class="flipNote">You vs Computer</p>
+      <p class="flipNote">Please choose:</p>
+
+      <button class="headButton" onclick="coinFlip('Head')">Head</button>
+      <button class="tailButton" onclick="coinFlip('Tail')">Tail</button>
+      <button class="resetButton" onclick="flipReset()">Reset</button>
+    </div>
+    <div class="Youtube">
+      <section class="YoutubeClass">
+        <p class="ytTitle">Youtube channel button</p>
+        <button class="cssSubscribe js-subscribe" onclick="subscribe()">
+          Subscribe
+        </button>
+      </section>
+    </div>
+    <div>
+      <section>
+        <!-- Rock Paper Scissor game -->
+        <h2 class="gameTitle">Rock Paper Scissor</h2>
+        <div class="gameBtn">
+          <button class="rockBtn" onclick="rpsGame('Rock')">
+            <span>Rock</span>
+          </button>
+        </div>
+        <div class="gameBtn">
+          <button class="paperBtn" onclick="rpsGame('Paper')">
+            <span>Paper</span>
+          </button>
+        </div>
+
+        <div class="gameBtn">
+          <button class="scissorBtn" onclick="rpsGame('Scissor')">
+            <span>Scissor</span>
+          </button>
+        </div>
+        <div class="gameBtn">
+          <button class="resetBtn" onclick="rpsReset()">
+            <span>Reset</span>
+          </button>
+        </div>
+      </section>
+    </div>
+    <footer class="main-footer">
+      <p class="footer-text">
+        🤖 Coded with half knowledge and full confidence by
+        <strong>Aditya</strong>
+      </p>
+      <p class="footer-subtext">
+        ⚠️ Bugs are not features (yet) | 💻 Still figuring out why 'div inside
+        div' feels so right 😅
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
