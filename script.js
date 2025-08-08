@@ -137,6 +137,9 @@ function rpsGame(rps_userMove) {
   alert(
     `Wins:${rpsScore.wins}\nLosses:${rpsScore.losses}\nTies:${rpsScore.ties}`
   );
+  document.querySelector(
+    ".js-rpsResult"
+  ).innerHTML = `Wins:${rpsScore.wins} | Losses:${rpsScore.losses} | Ties:${rpsScore.ties}`;
 }
 function rpsReset() {
   rpsScore.wins = 0;
@@ -144,4 +147,7 @@ function rpsReset() {
   rpsScore.ties = 0;
   localStorage.setItem("rpsScore", JSON.stringify(rpsScore));
   alert("Score reset!");
+  document.querySelector(
+    ".js-rpsResult"
+  ).innerHTML = `Wins:${rpsScore.wins}\nLosses:${rpsScore.losses}\nTies:${rpsScore.ties}`;
 }
