@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+.Heading {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+.subheading {
+  font-family: "Nunito", sans-serif;
+  color: rgb(64, 198, 64);
+  font-size: 1.8rem;
+}
+.exheading {
+  color: gray;
+  font-family: "Playfair Display", serif;
+  font-size: 1.67rem;
+  margin-top: 0.78rem;
+}
+.taskheading {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.67rem;
+  color: rgba(2, 60, 2, 0.888);
+  margin-left: 1.367rem;
+}
+.task4a {
+  margin-left: 2.29rem;
+}
+.task4c {
+  margin-left: 2.29rem;
+  font-size: 1.4rem;
+}
+.task4e_addcart {
+  margin-left: 2.29rem;
+  background-color: rgba(235, 235, 69, 0.866);
+  color: rgba(18, 17, 17, 0.665);
+  border: 0.4rem;
+  padding-top: 0.39rem;
+  padding-bottom: 0.39rem;
+  border-radius: 4px;
+  transition: background-color 1s, color 1s;
+}
+.task4e_addcart:hover {
+  cursor: pointer;
+  background-color: yellowgreen;
+  color: black;
+}
+.task4e_buynow {
+  margin-left: 0.98rem;
+  background-color: rgba(241, 116, 49, 0.938);
+  color: rgba(18, 17, 17, 0.665);
+  border: 0.4rem;
+  padding-top: 0.39rem;
+  padding-bottom: 0.39rem;
+  border-radius: 4px;
+  transition: background-color 1s, color 1s;
+}
+.task4e_buynow:hover {
+  cursor: pointer;
+  background-color: rgba(233, 71, 63, 0.64);
+  color: rgb(10, 9, 9);
+}
+.task4f_inline {
+  margin-left: 2.29rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4rem;
+}
+.greetButton {
+  background-color: rgb(103, 68, 174);
+  color: rgb(35, 23, 17);
+  border-radius: 5px;
+  border: none;
+  margin-left: 2.29rem;
+  margin-bottom: 0.45rem;
+  padding-left: 0, 67rem;
+  padding-right: 0.67rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.greetButton:hover {
+  color: rgb(103, 68, 174);
+  background-color: rgb(35, 23, 17);
+}
+.greetButton:active {
+  opacity: 0.23;
+}
+.headButton {
+  background-color: #4caf50;
+  color: rgb(234, 231, 229);
+  border-radius: 5px;
+  border: none;
+  margin-left: 2.29rem;
+  margin-bottom: 0.45rem;
+  padding-left: 0, 67rem;
+  padding-right: 0.67rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.headButton:hover {
+  background-color: #388e3c; /* Darker Green */
+}
+
+.tailButton {
+  background-color: #f44336;
+  color: rgb(234, 231, 229);
+  border-radius: 5px;
+  border: none;
+  margin-left: 1.19rem;
+  margin-bottom: 0.45rem;
+  padding-left: 0.67rem;
+  padding-right: 0.67rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.tailButton:hover {
+  background-color: #d32f2f; /* Darker Green */
+}
+.flipNote {
+  margin-left: 1.34rem;
+  color: #f44336;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.09rem;
+}
+.resetButton {
+  margin-left: 2.29rem;
+  border: none;
+  margin-left: 1.19rem;
+  border-radius: 4px;
+  padding-left: 0.67rem;
+  padding-right: 0.67rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+  cursor: pointer;
+  background-color: #f44336;
+  color: rgb(160, 183, 183);
+  transition: background-color 1s, color 1s, opacity 1s;
+}
+.resetButton:hover {
+  background-color: aqua;
+  color: #f44336;
+}
+.resetButton:active {
+  opacity: 0.89;
+}
+
+.cssSubscribe {
+  border: none;
+  margin-bottom: 0.45rem;
+  margin-left: 2.29rem;
+  margin-left: 1.19rem;
+  border-radius: 1.12rem;
+  padding-left: 0.87rem;
+  padding-right: 0.87rem;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+  cursor: pointer;
+  font-size: 0.89rem;
+  background-color: #1c1b1be3;
+  color: rgb(246, 240, 240);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: background-color 0.2s, color0.2s, opacity 1s;
+}
+.cssSubscribe:hover {
+  opacity: 0.86;
+}
+.ytTitle {
+  color: rgba(48, 45, 45, 0.894);
+  font-family: "Playfair Display", serif;
+  font-size: 1.67rem;
+  margin-top: 0.78rem;
+}
+
+.bitcount-prop-single-gameTitle {
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
+}
+.gameBtn {
+  display: inline;
+  align-items: vertically;
+}
+.rockBtn {
+  background-color: #fee6e6;
+  color: #8b0000;
+  border: none;
+  margin-left: 2.29rem;
+  padding-left: 0.68rem;
+  padding-right: 0.68;
+  padding-top: 0.58rem;
+  padding-bottom: 0.58rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.rockBtn:hover {
+  background-color: #f4caca;
+}
+
+.rockBtn:active {
+  opacity: 0.8;
+}
+
+.paperBtn {
+  color: #8b0000;
+  background-color: #f2d7d0;
+  border: none;
+  margin-left: 0.29rem;
+  padding-left: 0.68rem;
+  padding-right: 0.68;
+  padding-top: 0.58rem;
+  padding-bottom: 0.58rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.paperBtn:hover {
+  background-color: #f4caca;
+}
+
+.paperBtn:active {
+  opacity: 0.8;
+}
+.scissorBtn {
+  color: #8b0000;
+  background-color: #f2d7d0;
+  border: none;
+  margin-left: 0.29rem;
+  padding-left: 0.68rem;
+  padding-right: 0.68;
+  padding-top: 0.58rem;
+  padding-bottom: 0.58rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.scissorBtn:hover {
+  background-color: #f4caca;
+}
+
+.scissorBtn:active {
+  opacity: 0.8;
+}
+.resetBtn {
+  color: #8b0000;
+  background-color: #f2d7d0;
+  border: none;
+  margin-left: 0.29rem;
+  padding-left: 0.68rem;
+  padding-right: 0.68;
+  padding-top: 0.58rem;
+  padding-bottom: 0.58rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.resetBtn:hover {
+  background-color: #f4caca;
+}
+
+.resetBtn:active {
+  opacity: 0.8;
+}
+.rockBtn,
+.paperBtn,
+.scissorBtn,
+.resetBtn {
+  margin-top: 0.98rem;
+  margin-bottom: 0.98rem;
+  align-items: baseline;
+}
+.main-footer {
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  font-family: "Playfair Display", serif;
+  margin-top: 50px;
+  border-top: 2px solid #f2f2f2;
+  animation: slideUp 1s ease-in-out;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-text {
+  font-size: 17px;
+  margin: 5px 0;
+  animation: fadeIn 2s ease-in;
+}
+
+.footer-subtext {
+  font-size: 14px;
+  color: #bbbbbb;
+  animation: fadeIn 3s ease-in;
+}
+
+/* Animation keyframes */
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.footer-text:hover {
+  color: #ffcb05;
+  text-shadow: 0 0 10px #ffcb05;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-header {
+  background: linear-gradient(135deg, #000000, #1f1c2c, #0f2027);
+  background-size: 600% 600%;
+  animation: bgFlow 10s ease infinite;
+  color: #ffffff;
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  border-bottom: 3px solid #00ffcc;
+  box-shadow: 0 0 25px rgba(0, 255, 204, 0.4);
+}
+
+.site-title {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+  color: #00ffcc;
+  text-shadow: 0 0 8px #00ffcc, 0 0 16px #00ffff;
+  animation: bounceIn 1.5s ease, glowPulse 2.5s ease-in-out infinite alternate;
+  text-transform: uppercase;
+}
+
+.site-subtitle {
+  font-size: 1.6rem;
+  color: #cccccc;
+  font-style: italic;
+  animation: fadeInSubtitle 2s ease-in;
+}
+.css-rpsResult {
+  margin-left: 6.79rem;
+  font-family: "Orbitron", sans-serif;
+}
