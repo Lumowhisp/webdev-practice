@@ -359,3 +359,30 @@ html {
   margin-left: 6.79rem;
   font-family: "Orbitron", sans-serif;
 }
+.calcHeader {
+  margin-left: 1.19rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.calcSubheading {
+  margin-left: 1.89rem;
+  margin-top: 0.56rem;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cs-cost-input {
+  margin-left: 1.89rem;
+  margin-top: 0.56rem;
+  font-size: 1rem;
+}
+.cs-amz-calc {
+  margin-top: 0.56rem;
+  font-size: 1rem;
+}
+.head-cost-details {
+  color: rgb(64, 63, 63);
+  font-family: "Playfair Display", serif;
+  font-size: 1.36rem;
+  margin-top: 0.78rem;
+  margin-left: 1.89rem;
+}

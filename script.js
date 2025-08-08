@@ -151,3 +151,24 @@ function rpsReset() {
     ".js-rpsResult"
   ).innerHTML = `Wins:${rpsScore.wins}\nLosses:${rpsScore.losses}\nTies:${rpsScore.ties}`;
 }
+
+/*Amazon Shipping Calc*/
+const amz = {
+  price: 0,
+};
+function cartCalc() {
+  const inputElement = document.querySelector(".js-cost-input");
+  const cost = parseInt(inputElement.value, 10);
+
+  if (cost < 99) {
+    amz.price = cost + 30;
+    document.querySelector(
+      ".cost-details"
+    ).innerHTML = `Cost of Item:${amz.price}`;
+  } else {
+    amz.price = cost;
+    document.querySelector(
+      ".cost-details"
+    ).innerHTML = `Cost of Item:${amz.price}`;
+  }
+}
